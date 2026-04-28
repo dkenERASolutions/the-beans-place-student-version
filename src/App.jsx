@@ -59,6 +59,7 @@ import NavBar from "./components/NavBar";
 import RibbonTicker from "./components/RibbonTicker";
 import FeaturesSection from "./components/FeaturesSection";
 import ProductShowcase from "./components/ProductShowcase";
+import CtaSection from "./components/CtaSection";
 
 export default function App() {
     return (
@@ -85,6 +86,13 @@ export default function App() {
                 <ProductShowcase />
             </section>
 
+            <RibbonTicker />
+
+            {/* CTA */}
+            <section className="bg-cta">
+                <CtaSection />
+            </section>
+            
             {/* FOOTER */}
             <section className="bg-footer">
                 <FooterSection />

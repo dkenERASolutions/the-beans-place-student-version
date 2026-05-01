@@ -62,6 +62,7 @@ import ProductShowcase from "./components/ProductShowcase";
 import CtaSection from "./components/CtaSection";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
+import ContactForm from "./components/ContactForm";
 
 export default function App() {
     return (
@@ -94,16 +95,18 @@ export default function App() {
             <section className="bg-cta">
                 <CtaSection />
             </section>
-            
+
             <section className="bg-cta" id="about">
                 <AboutSection />
             </section>
-            
+
             {/* Contact */}
-            <section className="bg-cta" id="contact">
+            {/* <section className="bg-cta" id="contact">
                 <ContactSection />
-            </section>
-            
+            </section> */}
+
+            <ContactForm />
+
             {/* FOOTER */}
             <section className="bg-footer">
                 <FooterSection />

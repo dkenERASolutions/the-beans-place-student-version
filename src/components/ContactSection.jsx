@@ -487,7 +487,7 @@ export default function ContactSection() {
 
                 {/* Two-Column: Form + Info Cards */}
                 <div className="contact-layout">
-                    {/* Lef: Contact Form */}
+                    {/* Left: Contact Form */}
                     <div className="contact-form-col">
                         <ContactFormInline />
                     </div>
